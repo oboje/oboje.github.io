@@ -1,9 +1,17 @@
+<!DOCTYPE html>
 <html>
 <head>
-  <title></title>
+<title>VRI on the fly</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="gn-mobile.css" type="text/css" charset="utf-8">
 </head>
 <body>
-<b>Test builds</b>
-<p><a href="itms-services://?action=download-manifest&amp;url=https://oboje.github.io/manifest2.plist">Test App ( Animation )</a></p>
+<p style="text-align: center; margin: 50px;"><a href="vrionthefly://hello" onclick="handleClckOnLink()"><strong>Open in the app</strong></a></p>
+<p style="text-align: center; margin: 50px;"><a href="https://itunes.apple.com/us/app/p3-mobile/id432523572?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/assets/shared/badges/en-us/appstore-lrg.svg) no-repeat;width:135px;height:40px;background-size:contain;"></a></p>
+<script>
+function handleClckOnLink() {
+    javascript:window.close()
+}
+</script>
 </body>
 </html>
