@@ -14,7 +14,7 @@ jobs:
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
-      hugo-version: 'latest'
+        hugo-version: 'latest'
 
     - name: Clean public directory
       run: rm -rf ./public
@@ -26,8 +26,8 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       if: ${{ github.ref == 'refs/heads/main' }}
       with:
-      github_token: ${{ secrets.GH_TOKEN }}
-      publish_dir: ./public
-      cname: ipopov.dev
+        github_token: ${{ secrets.GH_TOKEN }}
+        publish_dir: ./public
+        cname: ipopov.dev
 
 
