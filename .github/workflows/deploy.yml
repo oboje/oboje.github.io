@@ -16,7 +16,7 @@ jobs:
           run: rm -rf ./public
 
         - name: Build
-          run: hude -D
+          run: hugo -D
 
         - name: Create cname file
           run: echo 'ipopov.dev' > public/CNAME
