@@ -2,17 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/posts/my-first-post/</loc>
+    <loc>https://ipopov.dev/</loc>
+    <lastmod>2022-07-24T21:06:33-04:00</lastmod>
+  </url><url>
+    <loc>https://ipopov.dev/posts/</loc>
+    <lastmod>2022-07-24T21:06:33-04:00</lastmod>
+  </url><url>
+    <loc>https://ipopov.dev/posts/summaries/</loc>
+    <lastmod>2022-07-24T21:06:33-04:00</lastmod>
+  </url><url>
+    <loc>https://ipopov.dev/posts/my-first-post/</loc>
     <lastmod>2022-07-24T10:53:47-04:00</lastmod>
   </url><url>
-    <loc>http://example.org/</loc>
-    <lastmod>2022-07-24T10:53:47-04:00</lastmod>
+    <loc>https://ipopov.dev/categories/</loc>
   </url><url>
-    <loc>http://example.org/posts/</loc>
-    <lastmod>2022-07-24T10:53:47-04:00</lastmod>
-  </url><url>
-    <loc>http://example.org/categories/</loc>
-  </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://ipopov.dev/tags/</loc>
   </url>
 </urlset>

@@ -1,19 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>My New Hugo Site Lol</title>
-    <link>http://example.org/</link>
-    <description>Recent content on My New Hugo Site Lol</description>
+    <title>Igor Popov</title>
+    <link>https://ipopov.dev/</link>
+    <description>Recent content on Igor Popov</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 Jul 2022 10:53:47 -0400</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Jul 2022 21:06:33 -0400</lastBuildDate><atom:link href="https://ipopov.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
-      <link>http://example.org/posts/my-first-post/</link>
+      <title>Summaries</title>
+      <link>https://ipopov.dev/posts/summaries/</link>
+      <pubDate>Sun, 24 Jul 2022 21:06:33 -0400</pubDate>
+      
+      <guid>https://ipopov.dev/posts/summaries/</guid>
+      <description>That was Wintermute, manipulating the lock the way it had manipulated the drone micro and the dripping chassis of a broken mirror bent and elongated as they fell. The Tessier-Ashpool ice shattered, peeling away from the Chinese program&amp;rsquo;s thrust, a worrying impression of solid fluidity, as though the shards of a broken mirror bent and elongated as they rotated, but it never told the correct time. Strata of cigarette smoke rose from the tiers, drifting until it struck currents set up by the blowers and the drifting shoals of waste.</description>
+    </item>
+    
+    <item>
+      <title>Hello world</title>
+      <link>https://ipopov.dev/posts/my-first-post/</link>
       <pubDate>Sun, 24 Jul 2022 10:53:47 -0400</pubDate>
       
-      <guid>http://example.org/posts/my-first-post/</guid>
-      <description>Test LOL 22 </description>
+      <guid>https://ipopov.dev/posts/my-first-post/</guid>
+      <description>Title test Wow, it so &amp;hellip;.
+title 2 test point 1 point 2 </description>
     </item>
     
   </channel>
