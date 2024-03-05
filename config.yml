@@ -40,4 +40,9 @@ params:
     Content: >
       👋 Hello, I'm Igor. Since 2010, I've been crafting iOS apps with a focus on simplicity, performance, and quality. My goal is to create apps that are intuitive, fast, and reliable, using over a decade of experience to bring your ideas to life.
 
+  module:
+    mounts:
+    - source: assets
+      target: assets
+
       
