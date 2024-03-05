@@ -1,4 +1,43 @@
 baseURL: https://ipopov.dev/
 languageCode: en-us
-title: Igor Popov 
+title: ipopov.dev
 theme: PaperMod
+
+
+params:
+
+  profileMode:
+    enabled: true
+    title: "Igor Popov" 
+    subtitle: "iOS Development"
+    imageUrl: "images/1.jpg"
+    imageTitle: "<title of image as alt>" # optional
+    imageWidth: 140 # custom size
+    imageHeight: 140 # custom size
+    buttons:
+      - name: CV
+        url: "https://github.com/oboje/CV/blob/main/Resume_CV_igor_popov_2023.pdf"
+
+  socialIcons:
+    - name: github
+      title: View Source on Github
+      url: "https://github.com/oboje"
+    - name: X
+      title: twitter
+      url: "https://twitter.com/lattenakokose"
+    - name: linkedin
+      title: linkedin
+      url: "https://www.linkedin.com/in/oboje/"
+    - name: telegram
+      title: telegram
+      url: "https://t.me/lattenakokose"
+    - name: instagram
+      title: instagram
+      url: "https://www.instagram.com/__kakdela/"
+
+  homeInfoParams:
+    Title: "Igor Popov"
+    Content: >
+      👋 Hello, I'm Igor. Since 2010, I've been crafting iOS apps with a focus on simplicity, performance, and quality. My goal is to create apps that are intuitive, fast, and reliable, using over a decade of experience to bring your ideas to life.
+
+      
