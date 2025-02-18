@@ -2,32 +2,30 @@ name: CI
 on:
   push:
     branches:
-    - "main"
+      - "main"
 jobs:
   deploy:
     name: Deploy website
     runs-on: ubuntu-latest
     steps:
-    - name: Git checkout
-      uses: actions/checkout@v2
+      - name: Git checkout
+        uses: actions/checkout@v2
 
-    - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v2
-      with:
-        hugo-version: 'latest'
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "v0.127.0"
 
-    - name: Clean public directory
-      run: rm -rf ./public
+      - name: Clean public directory
+        run: rm -rf ./public
 
-    - name: Build
-      run: hugo -D
+      - name: Build
+        run: hugo -D
 
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
-      if: ${{ github.ref == 'refs/heads/main' }}
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./public
-        cname: ipopov.dev
-
-
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: ${{ github.ref == 'refs/heads/main' }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          cname: ipopov.dev
