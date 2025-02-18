@@ -3,12 +3,10 @@ languageCode: en-us
 title: ipopov.dev
 theme: PaperMod
 
-
 params:
-
   profileMode:
     enabled: true
-    title: "Igor Popov" 
+    title: "Igor Popov"
     subtitle: "iOS Application Development Services & Consulting"
     imageUrl: "images/1.jpg"
     imageTitle: "<title of image as alt>" # optional
@@ -18,12 +16,12 @@ params:
       - name: CV
         url: "https://github.com/oboje/CV/blob/main/Resume_CV_igor_popov_2023.pdf"
 
-  socialIcons:
+  social:
     - name: github
       title: View Source on Github
       url: "https://github.com/oboje"
-    - name: X
-      title: twitter
+    - name: x
+      title: x
       url: "https://twitter.com/lattenakokose"
     - name: linkedin
       title: linkedin
@@ -42,7 +40,5 @@ params:
 
   module:
     mounts:
-    - source: assets
-      target: assets
-
-      
+      - source: assets
+        target: assets
