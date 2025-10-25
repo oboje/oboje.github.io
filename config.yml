@@ -1,42 +1,73 @@
 baseURL: https://ipopov.dev/
 languageCode: en-us
-title: ipopov.dev
+title: "ipopov - iOS Mobile App Development Services | Igor Popov"
 theme: PaperMod
 
 params:
+  description: "ipopov - Expert iOS mobile app development services from scratch. AI-powered iOS development, consulting, and mobile app solutions. Hire experienced iOS developers from Eastern Europe. Contact: hello@ipopov.dev"
+  author: "Igor Popov"
+  keywords:
+    - ipopov
+    - Igor Popov
+    - iOS mobile app development
+    - iOS app development from scratch
+    - iOS mobile consulting
+    - AI best practices iOS development
+    - Cursor IDE iOS development
+    - AI-powered iOS development
+    - hire iOS developers Eastern Europe
+    - Swift development services
+    - mobile app development services
+    - iOS consulting services
+
   profileMode:
     enabled: true
-    title: "Igor Popov"
-    subtitle: "iOS Application Development Services & Consulting"
+    title: "Igor Popov | ipopov.dev"
+    subtitle: "iOS Mobile App Development | AI-Powered Solutions | Consulting Services"
     imageUrl: "images/1.jpg"
-    imageTitle: "<title of image as alt>" # optional
-    imageWidth: 140 # custom size
-    imageHeight: 140 # custom size
+    imageTitle: "Igor Popov - Expert iOS Developer & Consultant specializing in AI-powered mobile app development"
+    imageWidth: 140
+    imageHeight: 140
     buttons:
       - name: CV
         url: "https://github.com/oboje/CV/blob/main/Resume_CV_igor_popov_2023.pdf"
+      - name: Contact
+        url: "mailto:hello@ipopov.dev"
 
-  social:
+  socialIcons:
     - name: github
       title: View Source on Github
       url: "https://github.com/oboje"
     - name: x
-      title: x
+      title: Follow on X/Twitter
       url: "https://twitter.com/lattenakokose"
     - name: linkedin
-      title: linkedin
+      title: Connect on LinkedIn
       url: "https://www.linkedin.com/in/oboje/"
     - name: telegram
-      title: telegram
+      title: Contact on Telegram
       url: "https://t.me/lattenakokose"
     - name: instagram
-      title: instagram
+      title: Follow on Instagram
       url: "https://www.instagram.com/__kakdela/"
+
+  # Schema.org markup for SEO
+  schema:
+    publisherType: "Person"
+    sameAs:
+      - "https://github.com/oboje"
+      - "https://twitter.com/lattenakokose"
+      - "https://www.linkedin.com/in/oboje/"
+      - "https://t.me/lattenakokose"
+      - "https://www.instagram.com/__kakdela/"
 
   homeInfoParams:
     Title: "Igor Popov"
     Content: >
-      👋 Hello, I'm Igor. Since 2010, I've been crafting iOS apps with a focus on simplicity, performance, and quality. My goal is to create apps that are intuitive, fast, and reliable, using over a decade of experience to bring your ideas to life.
+      Hello, I'm Igor. Since 2010, I've been crafting iOS apps with a focus on simplicity, performance, and quality. My goal is to create apps that are intuitive, fast, and reliable, using over a decade of experience to bring your ideas to life.
+
+
+      Contact: hello@ipopov.dev
 
   module:
     mounts:
