@@ -1,0 +1,111 @@
+# Igor Popov
+
+> Senior iOS Engineer with 15+ years of experience. Product-oriented, focused on Swift, SwiftUI, and Swift Concurrency, with a strong interest in spec-driven, AI-agent-assisted product development. Based in the Wroclaw Metropolitan Area, Poland.
+
+## Identity
+
+- Full name: Igor Popov
+- Also known as: ipopov
+- Website: https://ipopov.dev
+- Location: Wroclaw Metropolitan Area, Poland
+- Role: Senior iOS Engineer, Product Owner, Technical Leadership, AI agents
+- Languages: Russian (native), Ukrainian (native), English (full professional)
+
+## Contact
+
+- Primary email: hello@ipopov.dev
+- Personal email: popov.kakdela@gmail.com
+- LinkedIn: https://www.linkedin.com/in/oboje/
+- GitHub: https://github.com/oboje
+- X/Twitter: https://twitter.com/lattenakokose
+- Telegram: https://t.me/lattenakokose
+- Instagram: https://www.instagram.com/__kakdela/
+
+## Professional summary
+
+- iOS app developer with 15+ years of experience building mobile apps.
+- Skilled in Swift, SwiftUI, and Swift Concurrency with a product-oriented focus.
+- Practices spec-driven product development enabling autonomous, agent-driven 10× AI-powered delivery.
+- Built products that have surpassed 1B downloads globally.
+- Led full mobile cycles: idea → planning → release.
+- Coordinated design, development, and QA for aligned delivery.
+- Strong in app analytics, localization, and feature A/B testing.
+- Focuses on engineering clean, efficient, and resilient apps.
+
+## Top skills
+
+- iOS app development (Swift, SwiftUI, Swift Concurrency, Objective-C)
+- Project management
+- Digital marketing
+- Growth hacking
+- Technical leadership
+- A/B testing and app analytics
+- AI-powered and agent-driven development workflows
+
+## Experience
+
+### Super Unlimited Inc. — iOS Senior Software Engineer
+- October 2021 – Present (Worldwide)
+- Contributor to a #1 App Store VPN app with 1B+ downloads.
+- Migrated 80%+ of Objective-C features to Swift.
+- Modularized the app structure via Swift Package Manager.
+- Doubled AdMob show rate through full ads refactoring and A/B tests, driving significant revenue growth.
+- Integrated CI/CD using Xcode Cloud.
+- Developed several VPN domain-specific features.
+- Built remote, customizable paywalls via Adapty and Firebase.
+- Improved app crash-free rate to 99.9%.
+- Authored technical documentation for existing and new features.
+- Established and implemented iOS team development processes.
+
+### Aura — iOS Senior Software Engineer
+- January 2019 – May 2021
+- Owned and implemented several core application features as a senior iOS engineer.
+
+### Brightgrove Ltd. — iOS Senior Software Engineer
+- March 2018 – January 2019
+- Worked on a telecommunication iOS product providing video chat and voice calls.
+- Tech: Swift, Objective-C, VoIP, SIP, REST, legacy code modernization.
+
+### EPAM Systems — iOS Senior Software Engineer
+- November 2017 – January 2018
+- Consultant providing architectural solutions for large legacy iOS e-commerce projects.
+
+### Akvelon, Inc. — iOS Senior Software Engineer
+- July 2017 – November 2017 (Kharkiv Region, Ukraine)
+- Developed a social network application from scratch in Swift for Microsoft.
+
+### Freelance — iOS Developer
+- January 2017 – May 2017 (Worldwide)
+- Took several iOS projects from idea to the App Store.
+
+### DataArt — iOS Senior Software Engineer
+- December 2013 – December 2016 (Ukraine)
+- Full-time outsourcing and outstaffing for US clients.
+- Prototyping, support, and development of iOS applications.
+- Project durations 3–12 months; team sizes 1–8.
+- Roles: Developer, Senior Developer, Team Leader.
+
+### GlobalLogic — iOS Software Developer
+- October 2012 – September 2013
+- Developed R&D MVPs in the healthcare field.
+- Tech: OpenCV, BTLE (Bluetooth Low Energy), fitness devices, real-time video processing, REST.
+
+### Gameloft — iOS Game Developer
+- July 2010 – October 2012 (Kharkiv)
+- Developed multiplayer games for iOS and Windows platforms.
+- Tech stack: iOS, OpenGL, C++, Objective-C.
+- Notable projects: Six-Guns (2011, networking/multiplayer), Fishing Kings (2010, in-game shop and f2p model), Zombiewood (2011, networking/multiplayer).
+
+## Education
+
+- National Aerospace University – Kharkiv Aviation Institute
+- Bachelor's degree, Computer Software Engineering (2007 – 2011)
+
+## Services offered via ipopov.dev
+
+- iOS mobile app development from scratch
+- iOS mobile consulting
+- AI-powered iOS development and best practices
+- Cursor IDE-based iOS development workflows
+- Swift development services
+- Hiring iOS developers from Eastern Europe

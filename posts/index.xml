@@ -6,12 +6,14 @@
     <description>Recent content in Posts on ipopov - iOS Mobile App Development Services | Igor Popov</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 Jul 2022 21:06:33 -0400</lastBuildDate><atom:link href="https://ipopov.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>hello@ipopov.dev (Igor Popov)</managingEditor>
+    <webMaster>hello@ipopov.dev (Igor Popov)</webMaster>
+    <lastBuildDate>Sun, 24 Jul 2022 10:53:47 -0400</lastBuildDate><atom:link href="https://ipopov.dev/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello world</title>
       <link>https://ipopov.dev/posts/my-first-post/</link>
       <pubDate>Sun, 24 Jul 2022 10:53:47 -0400</pubDate>
-      
+      <author>hello@ipopov.dev (Igor Popov)</author>
       <guid>https://ipopov.dev/posts/my-first-post/</guid>
       <description>&lt;h1 id=&#34;title-test&#34;&gt;Title test&lt;/h1&gt;
 &lt;p&gt;Wow, it so &amp;hellip;.&lt;/p&gt;

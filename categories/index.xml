@@ -5,6 +5,8 @@
     <link>https://ipopov.dev/categories/</link>
     <description>Recent content in Categories on ipopov - iOS Mobile App Development Services | Igor Popov</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://ipopov.dev/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <managingEditor>hello@ipopov.dev (Igor Popov)</managingEditor>
+    <webMaster>hello@ipopov.dev (Igor Popov)</webMaster><atom:link href="https://ipopov.dev/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
