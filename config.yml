@@ -9,7 +9,9 @@ author:
 
 params:
   description: "ipopov - Expert iOS mobile app development services from scratch. AI-powered iOS development, consulting, and mobile app solutions. Hire experienced iOS developers from Eastern Europe. Contact: hello@ipopov.dev"
-  author: "Igor Popov"
+  author:
+    name: "Igor Popov"
+    email: "hello@ipopov.dev"
   keywords:
     - ipopov
     - Igor Popov
