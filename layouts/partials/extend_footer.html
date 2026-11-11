@@ -1,0 +1,69 @@
+{{- /* Dev-only: rendered by `hugo server`, never in the production `hugo` build. */ -}}
+{{- if hugo.IsServer }}
+{{- $tracks := slice
+  (dict "title" "Sugar"       "artist" "Podval Capella" "url" "https://api.soundcloud.com/tracks/149990430")
+  (dict "title" "Say My Name" "artist" "Alex Cruz"      "url" "https://api.soundcloud.com/tracks/295880280")
+  (dict "title" "ODIUM"       "artist" "LXST CXNTURY"   "url" "https://api.soundcloud.com/tracks/641083998")
+  (dict "title" "Death Wish"  "artist" "Kaito Shoma"    "url" "https://api.soundcloud.com/tracks/308614751")
+}}
+<style>
+  #sc { position: fixed; top: 100px; right: 100px; width: 320px; z-index: 1000;
+        font: 13px/1.3 system-ui, sans-serif; color: #eee; }
+  #sc .sc-box { background: #1f1f1f; border: 1px solid #333; border-radius: 12px; overflow: hidden; }
+  #sc .sc-frame { padding: 8px 10px; }
+  #sc iframe { display: block; border: 0; width: 100%; height: 20px; }
+  #sc .sc-track { display: flex; width: 100%; gap: 8px; padding: 7px 10px; text-align: left;
+                  font: inherit; color: inherit; background: none; border: 0; border-top: 1px solid #2a2a2a; cursor: pointer; }
+  #sc .sc-track:hover { background: #2a2a2a; }
+  #sc .sc-track.sc-on, #sc .sc-track.sc-on .sc-n { color: #ff5500; }
+  #sc .sc-n { width: 14px; color: #777; }
+  #sc .sc-now { flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #sc .sc-now b { color: #fff; } #sc .sc-now span { color: #999; }
+  #sc .sc-list { display: block; }
+
+  /* Phones: a floating card covers the content, so dock a slim bar to the bottom edge. */
+  @media (max-width: 700px) {
+    #sc { top: auto; right: 0; left: 0; bottom: 0; width: auto; }
+    #sc .sc-box { border-radius: 14px 14px 0 0; border-width: 1px 0 0;
+                  padding-bottom: env(safe-area-inset-bottom); }
+    #sc .sc-frame { padding: 6px 12px; }
+    #sc .sc-track { padding: 6px 12px; }
+    body { padding-bottom: calc(160px + env(safe-area-inset-bottom)); }
+  }
+</style>
+
+<div id="sc">
+  <div class="sc-box">
+    <div class="sc-frame">
+      <iframe id="sc-frame" allow="autoplay" title="SoundCloud player"
+              src="https://w.soundcloud.com/player/?url={{ (index $tracks 0).url }}&color=%23ff5500&inverse=true&auto_play=false&show_user=true"></iframe>
+    </div>
+    <div class="sc-list">
+      {{- range $i, $t := $tracks }}
+      <button type="button" class="sc-track{{ if eq $i 0 }} sc-on{{ end }}" data-url="{{ $t.url }}">
+        <span class="sc-n">{{ add $i 1 }}</span>
+        <span class="sc-now"><b>{{ $t.title }}</b> <span>{{ $t.artist }}</span></span>
+      </button>
+      {{- end }}
+    </div>
+  </div>
+</div>
+<script src="https://w.soundcloud.com/player/api.js"></script>
+<script>
+  (function () {
+    var rows = Array.prototype.slice.call(document.querySelectorAll("#sc .sc-track"));
+    var widget = SC.Widget(document.getElementById("sc-frame"));
+    var current = 0;
+
+    function play(i) {
+      current = i % rows.length;
+      widget.load(rows[current].dataset.url, { auto_play: true, inverse: true, show_user: true, color: "#ff5500" });
+      rows.forEach(function (r, j) { r.classList.toggle("sc-on", j === current); });
+    }
+
+    rows.forEach(function (r, i) { r.addEventListener("click", function () { play(i); }); });
+    // The widget plays one track at a time, so chain the next one ourselves.
+    widget.bind(SC.Widget.Events.FINISH, function () { play(current + 1); });
+  })();
+</script>
+{{- end }}
