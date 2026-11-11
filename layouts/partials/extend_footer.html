@@ -1,5 +1,3 @@
-{{- /* Dev-only: rendered by `hugo server`, never in the production `hugo` build. */ -}}
-{{- if hugo.IsServer }}
 {{- $tracks := slice
   (dict "title" "Sugar"       "artist" "Podval Capella" "url" "https://api.soundcloud.com/tracks/149990430")
   (dict "title" "Say My Name" "artist" "Alex Cruz"      "url" "https://api.soundcloud.com/tracks/295880280")
@@ -66,4 +64,3 @@
     widget.bind(SC.Widget.Events.FINISH, function () { play(current + 1); });
   })();
 </script>
-{{- end }}
