@@ -66,7 +66,12 @@
         }
 
     </style>
-</noscript><meta property="og:title" content="Categories" />
+</noscript><style>
+   
+  html { scrollbar-width: none; }
+  html::-webkit-scrollbar { display: none; }
+</style>
+<meta property="og:title" content="Categories" />
 <meta property="og:description" content="ipopov - Expert iOS mobile app development services from scratch. AI-powered iOS development, consulting, and mobile app solutions. Hire experienced iOS developers from Eastern Europe. Contact: hello@ipopov.dev" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://ipopov.dev/categories/" />
@@ -153,10 +158,11 @@
   #sc .sc-now { flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   #sc .sc-now b { color: #fff; } #sc .sc-now span { color: #999; }
   #sc .sc-list { display: block; }
+  #sc.sc-inline { position: static; margin: 60px auto 0; }
 
    
   @media (max-width: 700px) {
-    #sc { top: auto; right: 0; left: 0; bottom: 0; width: auto; }
+    #sc, #sc.sc-inline { position: fixed; top: auto; right: 0; left: 0; bottom: 0; width: auto; margin: 0; }
     #sc .sc-box { border-radius: 14px 14px 0 0; border-width: 1px 0 0;
                   padding-bottom: env(safe-area-inset-bottom); }
     #sc .sc-frame { padding: 6px 12px; }
@@ -194,13 +200,24 @@
 <script src="https://w.soundcloud.com/player/api.js"></script>
 <script>
   (function () {
+    
+    var anchor = document.querySelector(".profile .buttons");
+    if (anchor) {
+      var box = document.getElementById("sc");
+      anchor.insertAdjacentElement("afterend", box);
+      box.classList.add("sc-inline");
+    }
     var rows = Array.prototype.slice.call(document.querySelectorAll("#sc .sc-track"));
     var widget = SC.Widget(document.getElementById("sc-frame"));
     var current = 0;
 
     function play(i) {
       current = i % rows.length;
-      widget.load(rows[current].dataset.url, { auto_play: true, inverse: true, show_user: true, color: "#ff5500" });
+      widget.load(rows[current].dataset.url, {
+        auto_play: true, inverse: true, show_user: true, color: "#ff5500",
+        
+        callback: function () { widget.play(); }
+      });
       rows.forEach(function (r, j) { r.classList.toggle("sc-on", j === current); });
     }
 
