@@ -46,7 +46,7 @@ params:
       url: "https://github.com/oboje"
     - name: x
       title: Follow on X/Twitter
-      url: "https://twitter.com/lattenakokose"
+      url: "https://x.com/ipopov89"
     - name: linkedin
       title: Connect on LinkedIn
       url: "https://www.linkedin.com/in/oboje/"
@@ -62,7 +62,7 @@ params:
     publisherType: "Person"
     sameAs:
       - "https://github.com/oboje"
-      - "https://twitter.com/lattenakokose"
+      - "https://x.com/ipopov89"
       - "https://www.linkedin.com/in/oboje/"
       - "https://t.me/lattenakokose"
       - "https://www.instagram.com/__kakdela/"
